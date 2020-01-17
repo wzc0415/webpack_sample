@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "moduleResolution": "node",
+    "target": "es6",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "removeComments": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/boot.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+    "src/app/**/*.spec.ts"
+  ]
+}
